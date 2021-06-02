@@ -5,8 +5,8 @@ import './App.css';
 const COUNT_CONTRACT_ADDRESS = '0xd9BBc7814a84d3766f22c52A0eAFfa04045DcE6D';
 const COUNT_ABI = '[ { "constant": false, "inputs": [ { "name": "_count", "type": "uint256" } ], "name": "setCount", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "count", "outputs": [ { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "getBlockNumber", "outputs": [ { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" } ]';
 
-const ACCESS_KEY_ID = 'KASKZN2GAOHFT2TIV82D0NQY';
-const SECRET_ACCESS_KEY = 'RYLqOd2spqAlUBtGA3X4XQzcfjELe8Uh0b3FazsE';
+const ACCESS_KEY_ID = '';
+const SECRET_ACCESS_KEY = '';
 const CHAIN_ID = '1001' // mainnet 8217 testnet 1001
 
 const option = {
